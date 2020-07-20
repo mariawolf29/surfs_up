@@ -9,15 +9,15 @@ using method groupby to calculate the average precipitation per year across all 
 - 75th percentile, only 25% Decembers have precipitation higher than 0.2005 and 25th of June's precipitation higher than 0.1612 
 
 ```
-	     December	June
-count	       7	       8
-mean	0.210961	0.138185
-std	    0.115829	0.062694
-min	    0.089604	0.042241
-25%	    0.16926	    0.114265
-50%	    0.188439	0.124766
-75%	    0.200538	0.161224
-max	    0.459087	0.240142
+           December        June
+count           7             8
+mean       0.210961    0.138185
+std        0.115829    0.062694
+min        0.089604    0.042241
+25%        0.16926     0.114265
+50%        0.188439    0.124766
+75%        0.200538    0.161224
+max        0.459087    0.240142
 ```
 
 ## Approach 2
@@ -28,15 +28,15 @@ calculating across all of the stations and years without the method group by
 - highest precipitation measured in December is 6.42 and 4.43 in June (69% of December’s) level
 
 ```
-	    December	June
-count	1405	    1574
-mean	0.216819	0.13636
-std	    0.541399	0.335731
-min	    0	        0
-25%	    0	        0
-50%	    0.03	    0.02
-75%	    0.15	    0.12
-max	    6.42	    4.43
+        December        June
+count       1405        1574
+mean    0.216819     0.13636
+std     0.541399     0.335731
+min     0            0
+25%     0            0
+50%     0.03         0.02
+75%     0.15         0.12
+max     6.42         4.43
 ```
 
 ## Recommendations:
